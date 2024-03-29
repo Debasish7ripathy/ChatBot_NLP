@@ -12,3 +12,5 @@ This project is primarily aimed at task assignment by CodeClause to create a cha
     ```
 3. Open the local host link.
 4. Chat with the bot and enjoy the project.
+## Proof of concept(POC)
+![Screenshot 2024-03-29 211131](https://github.com/Debasish7ripathy/ChatBot_NLP/assets/156603397/a2019617-9a64-4d97-a887-37ef028ce4f7)
