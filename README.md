@@ -1,14 +1,14 @@
 # ChatBot_NLP
-Chatbot Using nlp
-<h2>About the Project </h2>
-Ths project is majourly for the task assignment by code clause to create a chatbot using Spacy NlTK and Python
-This is an easy project
-<h2>Steps to imple ment the project </h2>
-1. Clone the repo
-2. Open the app.py in terminal
-'''
-python app.py
-'''
-3. Open the local host link 
-4.chat with the bot and enjoy the proje4ct 
+Chatbot Using NLP
 
+## About the Project
+This project is primarily aimed at task assignment by CodeClause to create a chatbot using spaCy, NLTK, and Python. It is a beginner-friendly project.
+
+## Steps to Implement the Project
+1. Clone the repository.
+2. Open the `app.py` file in the terminal.
+    ```bash
+    python app.py
+    ```
+3. Open the local host link.
+4. Chat with the bot and enjoy the project.
