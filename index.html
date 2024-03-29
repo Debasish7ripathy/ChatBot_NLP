@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chat-container"></div>
+    <input type="text" id="user-input">
+    <button onclick="sendMessage()">Send</button>
+
+    <script>
+        function sendMessage() {
+            var user_input = document.getElementById("user-input").value;
+            document.getElementById("chat-container").innerHTML += "<p>You: " + user_input + "</p>";
+            document.getElementById("user-input").value = "";
+
+            fetch("/chat", {
+                method: "POST",
+                body: new URLSearchParams({
+                    user_input: user_input
+                }),
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded"
+                }
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("chat-container").innerHTML += "<p>Bot: " + data + "</p>";
+            });
+        }
+    </script>
+</body>
+</html>
