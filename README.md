@@ -6,14 +6,14 @@ This project is primarily aimed at task assignment by CodeClause to create a cha
 
 ## Steps to Implement the Project
 1. Clone the repository.
-2. ```bash
+```bash
     git clone https://github.com/Debasish7ripathy/ChatBot_NLP.git
-    ```
-3. Open the `app.py` file in the terminal.
+```
+2. Open the `app.py` file in the terminal.
     ```bash
     python app.py
     ```
-4. Open the local host link.
-5. Chat with the bot and enjoy the project.
+3. Open the local host link.
+4. Chat with the bot and enjoy the project.
 ## Proof of concept(POC)
 ![Screenshot 2024-03-29 211131](https://github.com/Debasish7ripathy/ChatBot_NLP/assets/156603397/a2019617-9a64-4d97-a887-37ef028ce4f7)
